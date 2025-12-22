@@ -7,10 +7,11 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "aluruarumullaa1"
+    bucket = "zaidu2"
     key    = "ecr/terraform.tfstate"
     region = "us-east-1"
   }
 
   required_version = ">= 1.6.3"
 }
+

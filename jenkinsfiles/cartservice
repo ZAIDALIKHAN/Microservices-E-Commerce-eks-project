@@ -42,8 +42,8 @@ pipeline {
         stage('Update Deployment file') {
             environment {
                 GIT_REPO_NAME = "Microservices-E-Commerce-eks-project"
-                GIT_EMAIL = "Yaswanth.arumulla@gmail.com"
-                GIT_USER_NAME = "arumullayaswanth"
+                GIT_EMAIL = "zaidalikhan5i1@gmail.com"
+                GIT_USER_NAME = "ZAIDALIKHAN"
                 IMAGE_NAME = "cartservice"
                 REPO_URL = "970622886527.dkr.ecr.us-east-1.amazonaws.com/cartservice"
                 YAML_FILE = "cartservice.yaml"
